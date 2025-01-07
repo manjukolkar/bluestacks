@@ -1,9 +1,9 @@
 pipeline {
     agent {
-        label 'node-1'
+        label 'dev'
     }
     stages {
-        stage('Install HTTPD') {
+        stage('project') {
             steps {
                 sh '''
                     sudo yum install httpd -y
