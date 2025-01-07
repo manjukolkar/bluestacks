@@ -5,7 +5,10 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World'
+                '''
+               sh 'sudo yum install httpd -y'
+               
+                '''
             }
         }
     }
