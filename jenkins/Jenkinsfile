@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh '''
                     sudo yum install httpd -y
-                    sudo cp /root/jenkins/workspace/assignment01/index.html /var/www/html
+                    sudo cp /root/jenkins/workspace/Job-2/index.html /var/www/html
                     sudo systemctl start httpd
                 '''
             }
