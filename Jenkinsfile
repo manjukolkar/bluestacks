@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'dev', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'master', url: 'https://github.com/manjukolkar/bluestacks.git'
             }
         }
 
